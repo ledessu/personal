@@ -1,5 +1,6 @@
 import React,{ Component } from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {Switch} from 'react-router';
 import {NavBar} from "./NavBar";
 import MainContent from "./MainContent";
 import Photo from "./Photo";
@@ -14,14 +15,14 @@ render(){
     return (
     <React.Fragment>
         <NavBar/>
-        <Photo/>
-        <Router>
-        <Routes>
-        <Route exact path='/MainContent' element={<MainContent/>} />
+        <Photo/>        
+        <Router basename={process.env.PUBLIC_URL}>
+        <Routes>        
         <Route  path='/Experience' element={<Experience/>} />
         <Route  path='/Projects' element={<Projects/>}  />
         <Route  path='/Interest' element={<Interest/>} />
         <Route  path='/Contacts' element={<Contact/>} />
+        <Route  path='/' element={<MainContent/>} />
         </Routes>
         </Router>
             
