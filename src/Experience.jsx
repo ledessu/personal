@@ -13,9 +13,15 @@ export default class Experience extends Component{
                 <td>Senior Lecturer in CSE Department, ASTU  </td>
             </tr>
             <tr>
+            <td>        <li><strong>Sept 2017 to Jan 2019</strong></li></td>
+            <td>International Collegiate Programming Contest (ICPC) Country manager (Ethiopia) and Coach </td>
+            </tr>
+            <tr>
                 <td>        <li><strong>Jul 2016 to Jan 2019</strong></li></td>
                 <td> Research Staff in Space Technology Institute (STI), ASTU</td> 
             </tr>
+            
+
             <tr>
                 <td>        <li><strong>Jul 2013 to Dec 2017</strong></li></td>
                 <td>Lecturer in Computing Department, School of Engineering, ASTU  </td>
@@ -35,16 +41,17 @@ export default class Experience extends Component{
         
         {id:"Research and Technical Skills",detail:<ul type="square">
         <li>Published a book on Lambert Academic Publishers in 2017 in title Amharic Factoid Question Answering, Rule Based Versus Statistical <a href= "https://www.amazon.com/Amharic-Factoid-Question-AnsweringStatistical/dp/3330075864" target="_blank">Amharic Factoid Question Answering, Rule Based Versus Statistical</a> </li>        
-        <li>Master’s Thesis “Web Based Amharic Question Answering System using Machine Learning Approach” Published in Conference Booklet EICTAC 2014, Ministry of Communication and Information Technology (MCIT) annual Conference Booklet, (P 26) <a href= "http://213.55.95.56/handle/123456789/1659" target="_blank">Web Based Amharic Question Answering System for Factoid Questions</a></li>     
-        <li>Published an extended abstract in title Push Notification for Challenged Networks Published in Proceeding ACM DEV '12 Proceedings of the 2nd ACM Symposium on Computing for Development Article No. 18 <a href="https://dl.acm.org/doi/10.1145/2160601.2160625" target="_blank"> Push Notification for Challenged Networks</a></li>     
+        <li>Master’s Thesis “Web Based Amharic Question Answering System using Machine Learning Approach” Published in Conference Booklet EICTAC 2014, Ministry of Communication and Information Technology (MCIT) annual Conference Booklet, (P 26) <a href= "http://213.55.95.56/handle/123456789/1659" target="_blank" rel="noopener noreferrer">Web Based Amharic Question Answering System for Factoid Questions</a></li>     
+        <li>Published an extended abstract in title Push Notification for Challenged Networks Published in Proceeding ACM DEV '12 Proceedings of the 2nd ACM Symposium on Computing for Development Article No. 18 <a href="https://dl.acm.org/doi/10.1145/2160601.2160625" target="_blank" rel="noopener noreferrer"> Push Notification for Challenged Networks</a></li>     
         </ul>},
         {id:"Awards",detail:<ul type="circle"><li> 
         Best Research Paper Award in the National ICT Conference hosted by Ministry of Communication & Information Technology in 2014 </li> 
-        <li>Certificate of Best Teacher of the Semester Award from the School of Engineering, Adama Science & Technology University on December 2013</li>
+        <li>Best Teacher of the Semester Award from the School of Engineering, Adama Science & Technology University on December 2013</li>
         </ul>}],
     };
     render(){
         return(
+            <React.Fragment>
             <div>
             {/* <img src="./edited.jpg" width="150" height="150"></img> */}
             {/* <button className="btn btn-info" onClick={this.onRefreshClicked}>Refresh </button> 
@@ -73,6 +80,7 @@ export default class Experience extends Component{
                 </tbody>
             </table>
             </div>
+            </React.Fragment>
         );
         
     }

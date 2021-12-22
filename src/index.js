@@ -4,7 +4,7 @@ import "jquery";
 import "popper.js/dist/umd/popper";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import './index.css';
 //import App from './App';
 import App from './App.jsx';
@@ -14,9 +14,12 @@ import "./all.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <HashRouter> */}
+    {/* <BrowserRouter basename={process.env.PUBLIC_URL}> */}
+    {/* This works for github pages */}
+    <HashRouter> 
     <App />
-    {/* </HashRouter> */}
+    </HashRouter>
+    {/* </BrowserRouter> */}
   </React.StrictMode>,
   // <React.StrictMode>
   //   <App />

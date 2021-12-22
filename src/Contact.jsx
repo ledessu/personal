@@ -1,4 +1,4 @@
-
+    
 import React, { Component } from "react";
 
 export default class Contact extends Component{
@@ -6,9 +6,11 @@ export default class Contact extends Component{
     
     <li>Email: ledessu@gmail.com</li>
 <br/>
-<li>LinkedIn: <a href="https://www.linkedin.com/in/desalegn-abebaw-3a616766" target="_blank">Desalegn Abebaw</a> </li>
+<li>LinkedIn: <a href="https://www.linkedin.com/in/desalegn-abebaw-3a616766" target="_blank" rel="noopener noreferrer">Desalegn Abebaw</a> </li>
  <br/>   
-<li>GitHub:<a href="https://github.com/ledessu" target="_blank"> https://github.com/ledessu</a></li>
+<li>GitHub:<a href="https://github.com/ledessu" target="_blank" rel="noopener noreferrer"> ledessu</a></li>
+<br/>
+<li>RocketPunch: <a href="https://www.rocketpunch.com/@ledessu" target="_blank" rel="noopener noreferrer">@ledessu</a></li>
 <br/>
 <li>Phone: +82 10-2516-8107 </li>
 

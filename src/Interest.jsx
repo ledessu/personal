@@ -5,7 +5,8 @@ export default class Interest extends Component{
     
     <li>Currently researching on Machine Learning, Image Classification, Scheduling and Satellite Flight Software Development.</li>
 <br/>
-<li>Now, Practicing Dynaminc web application development using React</li>
+
+<li>Now, Practicing Dynamic web application development using React</li>
  <br/>   
 <li>Enjoy developing windows and web applications using C# and ASP.Net</li>
 <br/>
