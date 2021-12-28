@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/personal/static/css/main.bf7c5f30.chunk.css",
-    "main.js": "/personal/static/js/main.6040e2e0.chunk.js",
-    "main.js.map": "/personal/static/js/main.6040e2e0.chunk.js.map",
+    "main.js": "/personal/static/js/main.6f782ad4.chunk.js",
+    "main.js.map": "/personal/static/js/main.6f782ad4.chunk.js.map",
     "runtime-main.js": "/personal/static/js/runtime-main.62e98cf1.js",
     "runtime-main.js.map": "/personal/static/js/runtime-main.62e98cf1.js.map",
     "static/css/2.8c0e6b67.chunk.css": "/personal/static/css/2.8c0e6b67.chunk.css",
@@ -14,13 +14,13 @@
     "static/css/2.8c0e6b67.chunk.css.map": "/personal/static/css/2.8c0e6b67.chunk.css.map",
     "static/css/main.bf7c5f30.chunk.css.map": "/personal/static/css/main.bf7c5f30.chunk.css.map",
     "static/js/2.0288e71f.chunk.js.LICENSE.txt": "/personal/static/js/2.0288e71f.chunk.js.LICENSE.txt",
-    "static/media/Des.d1d1112c.jpg": "/personal/static/media/Des.d1d1112c.jpg"
+    "static/media/Des-profile.ba77ad7a.jpg": "/personal/static/media/Des-profile.ba77ad7a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.62e98cf1.js",
     "static/css/2.8c0e6b67.chunk.css",
     "static/js/2.0288e71f.chunk.js",
     "static/css/main.bf7c5f30.chunk.css",
-    "static/js/main.6040e2e0.chunk.js"
+    "static/js/main.6f782ad4.chunk.js"
   ]
 }
